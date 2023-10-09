@@ -1,0 +1,448 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Healthcare dashboard
+		</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!----css3---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/custom.css">
+		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	
+	
+	
+	<!--google material icon-->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+  
+
+
+
+<div class="wrapper bg-info">
+
+
+<div class="body-overlay"></div>
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="https://ozcanzaferayan.github.io/healthcare-dashboard/img/logo.png" class="img-fluid"/><span></span></h3>
+            </div>
+            <ul class="list-unstyled components">
+			<li  class="active">
+                    <a href="#" class="dashboard"><i class="material-icons"></i><span></span></a>
+                </li>
+		
+		      <div class="small-screen navbar-display">
+                <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">notifications</i><span> 4 notification</span></a>
+                    <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                                    <li>
+                                    <a href="#">You have 5 new messages</a>
+                                    </li>
+                                    
+                                   
+                                    <li>
+                                        <a href="#">5 warnings in Server Console</a>
+                                    </li>
+                    </ul>
+                </li>
+				
+				<li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">apps</i><span>apps</span></a>
+                </li>
+				
+				 <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">person</i><span>user</span></a>
+                </li>
+				
+				<li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">settings</i><span>setting</span></a>
+                </li>
+				</div>
+			
+			
+                <li class="">
+                    <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">aspect_ratio</i><span></span></a>
+                    
+                </li>
+                
+                <li class="">
+                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">apps</i><span></span></a>
+                   
+                </li>
+				
+				 
+				  <li class="">
+                    <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">extension</i><span></span></a>
+                   
+                </li>
+				
+				<li class="">
+                    <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">border_color</i><span></span></a>
+                    <ul class="collapse list-unstyled menu" id="pageSubmenu5">
+                      
+                    </ul>
+                </li>
+               
+			   
+
+               
+			   
+			     <li class="">
+                    <a href="#pageSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">content_copy</i><span></span></a>
+                    
+                </li>
+               
+               <li class="">
+                    <a href="#"><i class="material-icons">date_range</i><span></span></a>
+                </li>
+				
+				 <li  class="">
+                    <a href="#"><i class="material-icons">library_books</i><span></span></a>
+                </li>
+               
+               
+            </ul>
+
+           
+        </nav>
+		
+		
+
+        <!-- Page Content  -->
+        <div id="content">
+		
+		<div class="top-navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                        <span class="material-icons">arrow_back_ios</span>
+                    </button>
+					
+					<a class="navbar-brand" href="#">  </a>
+					
+                    <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="material-icons">more_vert</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">   
+                            <li class="dropdown nav-item active">
+                                <a href="#" class="nav-link" data-toggle="dropdown">
+                                   <span class="material-icons">notifications</span>
+								   <span class="notification">4</span>
+                               </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">You have 5 new messages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">You're now friend with Mike</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">!</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">5 warnings in Server Console</a>
+                                    </li>
+                                  
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+								<span class="material-icons">apps</span>
+								</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+								<span class="material-icons">person</span>
+								</a>
+                            </li>
+							<li class="nav-item">
+                                <a class="nav-link" href="#">
+								<span class="material-icons">settings</span>
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+	    </div>
+			
+			
+			<div class="main-content">
+			
+			<div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-warning">
+                                        <img src="https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg" height="100px " width="100px" />
+
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong>roger curties</strong></p>
+                                    <h5>Age:36</h5>
+                                   <button onclick="update()" class="btn btn-success">update </button>
+                                </div>
+                                <div class="card-footer">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-rose">
+                                        <i class="fa-solid fa-heart-pulse"></i>
+                                    
+
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong>Heart Rate</strong></p>
+                                    <h5 class="card-title">80 bpm</h5>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-success">
+                                        <i class="fa-solid fa-temperature-three-quarters"></i>
+
+</span>
+
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong>Body 
+                                    Tempature</strong></p>
+                                    <h5 class="card-title">36.5&deg;C
+</h5>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-danger">
+     <i class="fa-solid fa-droplet"></i>
+</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong>Glucose</strong></p>
+                                    <h5 class="card-title">100mg/dl</h5>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   <!--  second  cd -->
+                  <div class=>
+                    <div class="card">
+  <h5 class="card-header">Test Reports</h5>
+  <div class="card-body">
+   <div class="row">
+    <div class="col">
+      <p><i class="fa-solid fa-file-invoice"></i> ct scan full-body </p>
+      <h6>12 feburary 2020</h6>
+    </div>
+    <div class="col">
+      <p><i class="fa-solid fa-file-invoice"></i> kiretin kinase T </p>
+      <h6>12 feburary 2020</h6>
+    </div>
+    <div class="col">
+      <p><i class="fa-solid fa-file-invoice"></i> Eye Fluorescein Test</p>
+      <h6>12 feburary 2020</h6>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  
+
+					<div class="row ">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="card" style="min-height: 485px">
+                                <div class="card-header card-header-text">
+                                    <h4 class="card-title">Information</h4>
+                                    
+                                </div>
+                                <div class="card-content table-responsive">
+                                    <table class="table table-hover">
+                                        <thead class="text-primary">
+                                            
+                                         <!--    <th>Salary</th>
+                                            <th>Country</th> -->
+                                        </tr></thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td>Gender</td>
+                                                <td>Male</td>
+                                            </tr>
+                                            <tr>
+                                              
+                                            
+                                                <td>Blood type</td>
+                                                <td>o+ve</td>
+                                            </tr>
+                                            <tr>
+                                               
+                                             
+                                                <td>Allergies</td>
+                                                <td>Milk Penicilin</td>
+                                            </tr>
+                                            <tr>
+                                              
+                                              
+                                                <td>Diseases</td>
+                                                <td>Korea, South</td>
+                                            </tr>
+                                             <tr>
+                                              
+                                              
+                                                <td>Height</td>
+                                                <td>178 cm</td>
+                                            </tr>
+                                            <tr>
+                                               
+                                                <td>weight</td>
+                                                <td>65 kg</td>
+                                            </tr>
+                                           
+                                           
+                                             <tr>
+                                               
+                                                <td>patient id</td>
+                                                <td>208898786</td>
+                                            </tr>
+                                           
+                                            <tr>
+                                               
+                                                <td>last visit</td>
+                                                <td>25october 2019</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-lg-5 col-md-12">
+                          
+                        <div class="card-content table-responsive">
+                                    <table class="table table-hover">
+                                        <thead class="text-primary">
+                                            
+                                            <th>priscription</th>
+                                            <th>Date</th>
+                                            <th>Duration</th>
+                                        </tr></thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td><i class="fa-regular fa-file"></i>  Heart Disesses</td>
+                                                <td>25 october 2019</td>
+                                                <td>3 months</td>
+                                            </tr>
+                                            <tr>
+                                              
+                                            
+                                                <td><i class="fa-regular fa-file"></i>  skin care  </td>
+                                                <td>8th Aug 2019</td>
+                                                <td>2 months</td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+						
+		
+					
+					</div>
+					
+				
+
+        </div>
+    </div>
+
+
+
+
+
+
+	
+  
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+  
+  
+  <script type="text/javascript">
+  $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+				$('#content').toggleClass('active');
+            });
+			
+			 $('.more-button,.body-overlay').on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+			
+        });
+
+const update=()=>{
+    alert("updated succfully")
+}
+     
+           
+       
+</script>
+  
+  
+
+
+
+  </body>
+  
+  </html>
+
+
